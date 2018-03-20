@@ -18,7 +18,7 @@
 >* **userId** = { twitter's userId }
 >* **startDate** = { YYYY-MM-DD }
 >* **endDate** = { YYYY-MM-DD }
-
+>
 >**Note :**
 >
 >* *startDate and endDate shouldn't be same.*
