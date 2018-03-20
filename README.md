@@ -6,12 +6,12 @@
 ### End Points
 >**1.Tweets**
 >``` 
->/tweets/userTd/startDate/endDate 
+>/tweets/{userId}/{startDate}/{endDate} 
 >```
 >
 >**2.Core-tweets**
 >```
->/core-tweets/userTd/startDate/endDate 
+>/core-tweets/{userId}/{startDate}/{endDate} 
 >```
 
 ### Params Format
