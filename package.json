@@ -1,0 +1,25 @@
+{
+  "name": "twitter-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "twitter.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "scrape-twitter": "^0.11.0",
+    "twitter-scraper": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poornachandugade/fetch-tweets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poornachandugade/fetch-tweets/issues"
+  },
+  "homepage": "https://github.com/poornachandugade/fetch-tweets#readme"
+}
