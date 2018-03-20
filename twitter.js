@@ -2,7 +2,9 @@ let stream = require("stream");
 let Scraper = require("twitter-scraper").Scraper;
 let express = require("express");
 let app = require("express")();
-
+app.get("/", (req, res) => {
+  res.sendfile(__dirname + "/public/index.html");
+});
 app.get("/tweets/:userId/:start/:end", (req, res) => {
   let { userId } = req.params;
   let { start } = req.params;
