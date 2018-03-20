@@ -2,7 +2,7 @@
 >### Built using twitter-scraper NPM [Module](https://www.npmjs.com/package/twitter-scraper)
 >Hosted on **Heroku**.
 >Test [here](https://fetch-tweets.herokuapp.com/) 
-----
+
 ### End Points
 >**1.Tweets**
 >``` 
