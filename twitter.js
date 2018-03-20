@@ -9,7 +9,8 @@ app.get("/tweets/:userId/:start/:end", (req, res) => {
   let { userId } = req.params;
   let { start } = req.params;
   let { end } = req.params;
-  let query = "from:" + userId + " since:" + start + "until:" + end;
+  let query = "from:" + userId + " since:" + start + " until:" + end;
+  // console.log(query);
   let scraper = new Scraper(query);
   let tweets = {
     data: [],
@@ -36,7 +37,7 @@ app.get("/core-tweets/:userId/:start/:end", (req, res) => {
   let { userId } = req.params;
   let { start } = req.params;
   let { end } = req.params;
-  let query = "from:" + userId + " since:" + start + "until:" + end;
+  let query = "from:" + userId + " since:" + start + " until:" + end;
   let scraper = new Scraper(query);
   let tweets = {
     data: [],
