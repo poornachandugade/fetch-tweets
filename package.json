@@ -4,9 +4,9 @@
   "description": "",
   "main": "twitter.js",
   "dependencies": {
-    "express": "^4.16.3",
-    "scrape-twitter": "^0.11.0",
-    "twitter-scraper": "^5.1.0"
+    "express": "4.16.3",
+    "scrape-twitter": "0.11.0",
+    "twitter-scraper": "5.1.0"
   },
   "scripts": {
     "start": "node twitter.js"
