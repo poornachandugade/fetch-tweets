@@ -22,7 +22,7 @@
 >**Note :**
 >
 >* *startDate and endDate shouldn't be same.*
->* *All are strings.*
+
 
 ### Response Format
 > ```javascript
