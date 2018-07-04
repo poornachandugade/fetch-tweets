@@ -9,7 +9,8 @@
     "twitter-scraper": "5.1.0"
   },
   "scripts": {
-    "start": "node twitter.js"
+    "start": "node twitter.js",
+     "test": "vows --spec"
   },
   "repository": {
     "type": "git",
